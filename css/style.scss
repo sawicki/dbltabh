@@ -1,13 +1,17 @@
 * {
   box-sizing: border-box;
 }
-
+h2{margin: .5rem;
+padding: 0px;}
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
+  background-color: #fff;
+  padding: 0px;
   text-align: center;
-  font-size: 35px;
+  // font-size: 2rem;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+  // height: 6rem;
 }
 
 /**
@@ -20,10 +24,12 @@
 .tabs label {
 	order: 1; // Put the labels first
 	display: block;
-	padding: 1rem 2rem;
-	margin-right: 0.2rem;
+	padding: .1rem 1rem;
+  margin-right: 0.2rem;
+  // margin-top: .5rem;
 	cursor: pointer;
-  background: #90CAF9;
+  // background: #90CAF9;
+  background: rgb(248, 226, 203);
   font-weight: bold;
   transition: background ease 0.2s;
 	border-radius:  10px 10px 0 0;
@@ -63,19 +69,20 @@
 */
 body {
   background: #ccc;
-  min-height: 100vh;
+  // min-height: 100vh;
 	box-sizing: border-box;
 	padding-top: 10vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
   line-height: 1.5;
-  max-width: 60rem;
+  max-width: 40rem;
   margin: 0 auto;
   font-size: 112%;
 }
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 10px;
   text-align: center;
+  margin-top: .2rem;
 }

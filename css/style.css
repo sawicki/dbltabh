@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+h2 {
+  margin: .5rem;
+  padding: 0px;
+}
+
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
-  padding: 30px;
+  background-color: #fff;
+  padding: 0px;
   text-align: center;
-  font-size: 35px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
 }
 
 /**
@@ -21,10 +27,10 @@
 .tabs label {
   order: 1;
   display: block;
-  padding: 1rem 2rem;
+  padding: .1rem 1rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #90CAF9;
+  background: #f8e2cb;
   font-weight: bold;
   transition: background ease 0.2s;
   border-radius: 10px 10px 0 0;
@@ -68,20 +74,20 @@
 */
 body {
   background: #ccc;
-  min-height: 100vh;
   box-sizing: border-box;
   padding-top: 10vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   line-height: 1.5;
-  max-width: 60rem;
+  max-width: 40rem;
   margin: 0 auto;
   font-size: 112%;
 }
 
 .footer {
-  background-color: #f1f1f1;
+  background-color: #fff;
   padding: 10px;
   text-align: center;
+  margin-top: .2rem;
 }
 /*# sourceMappingURL=style.css.map */
