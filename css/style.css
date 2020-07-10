@@ -18,14 +18,12 @@ body {
 }
 
 h2 {
-  margin: 0rem;
-  padding: 0px;
+  margin: .5rem;
 }
 
-/* Style the header */
 .header {
   background-color: #fff;
-  padding: 10px;
+  padding: 10px 20px 20px;
   text-align: center;
   border-radius: 10px 10px 0 0;
   margin-bottom: 10px;
@@ -71,6 +69,7 @@ img {
   order: 99;
   flex-grow: 1;
   width: 100%;
+  height: 400px;
   display: none;
   padding: 1rem;
   background: #fff;
