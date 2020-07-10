@@ -25,11 +25,12 @@ h2{margin:.5rem}
 .header {
   background-color: #fff;
   padding: 10px 20px 20px;
-  text-align: center;
+  text-align: left;
   // font-size: 2rem;
   border-radius: 10px 10px 0 0;
   margin-bottom: 10px;
   // height: 6rem;
+  h2{text-align: center;}
 }
 
 img {
