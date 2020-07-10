@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #ccc;
+  background: #7a7a7a;
   box-sizing: border-box;
   padding-top: 10vh;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -52,12 +52,13 @@ img {
 }
 
 .tabs label {
+  color: navy;
   order: 1;
   display: block;
   padding: .1rem 1rem;
   margin-right: 0.2rem;
   cursor: pointer;
-  background: #f8e2cb;
+  background: #b8b6b6;
   font-weight: bold;
   transition: background ease 0.2s;
   border-radius: 10px 10px 0 0;
@@ -78,6 +79,7 @@ img {
 
 .tabs input[type="radio"]:checked + label {
   background: #fff;
+  color: black;
 }
 
 .tabs input[type="radio"]:checked + label + .tab {

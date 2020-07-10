@@ -6,6 +6,7 @@
 	flex-wrap: wrap; // make sure it wraps
 }
 .tabs label {
+  color:navy;
 	order: 1; // Put the labels first
 	display: block;
 	padding: .1rem 1rem;
@@ -13,7 +14,7 @@
   // margin-top: .5rem;
 	cursor: pointer;
   // background: #90CAF9;
-  background: rgb(248, 226, 203);
+  background: rgb(184, 182, 182);
   font-weight: bold;
   transition: background ease 0.2s;
 	border-radius:  10px 10px 0 0;
@@ -30,11 +31,13 @@
 	display: none;
 }
 .tabs input[type="radio"]:checked + label {
-	background: #fff;
+  background: #fff;
+  color: black;
 }
 .tabs input[type="radio"]:checked + label + .tab {
 	display: block;
 }
+
 
 @media (max-width: 45em) {
   .tabs .tab,
