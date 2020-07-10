@@ -2,22 +2,7 @@
  * Generic Styling
 */
 * {
-  box-sizing: border-box;
-}
-
-h2 {
-  margin: .5rem;
-  padding: 0px;
-}
-
-/* Style the header */
-.header {
-  background-color: #fff;
-  padding: 0px;
-  text-align: center;
-  border-radius: 10px 10px 0 0;
-  margin-bottom: 10px;
-}
+  box-sizing: border-box; }
 
 body {
   background: #ccc;
@@ -28,13 +13,69 @@ body {
   line-height: 1.5;
   max-width: 40rem;
   margin: 0 auto;
-  font-size: 112%;
-}
+  font-size: 112%; }
+
+h2 {
+  margin: .5rem;
+  padding: 0px; }
+
+/* Style the header */
+.header {
+  background-color: #fff;
+  padding: 0px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px; }
 
 .footer {
   background-color: #fff;
   padding: 10px;
   text-align: center;
-  margin-top: .2rem;
-}
+  margin-top: .2rem; }
+
+/************************************************************************
+ * Tab1 from codepen
+ ***********************************************************************/
+.tabs {
+  display: flex;
+  flex-wrap: wrap; }
+
+.tabs label {
+  order: 1;
+  display: block;
+  padding: .1rem 1rem;
+  margin-right: 0.2rem;
+  cursor: pointer;
+  background: #f8e2cb;
+  font-weight: bold;
+  transition: background ease 0.2s;
+  border-radius: 10px 10px 0 0; }
+
+.tabs .tab {
+  order: 99;
+  flex-grow: 1;
+  width: 100%;
+  display: none;
+  padding: 1rem;
+  background: #fff; }
+
+.tabs input[type="radio"] {
+  display: none; }
+
+.tabs input[type="radio"]:checked + label {
+  background: #fff; }
+
+.tabs input[type="radio"]:checked + label + .tab {
+  display: block; }
+
+@media (max-width: 45em) {
+  .tabs .tab,
+  .tabs label {
+    order: initial; }
+
+  .tabs label {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0.2rem; } }
+
 /*# sourceMappingURL=style.css.map */

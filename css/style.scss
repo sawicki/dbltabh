@@ -2,9 +2,23 @@
  * Generic Styling
 */
 
-* {
+*  {
   box-sizing: border-box;
 }
+
+body {
+  background: #ccc;
+  // min-height: 100vh;
+	box-sizing: border-box;
+	padding-top: 10vh;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  line-height: 1.5;
+  max-width: 40rem;
+  margin: 0 auto;
+  font-size: 112%;
+}
+
 h2{margin: .5rem;
 padding: 0px;}
 /* Style the header */
@@ -20,22 +34,11 @@ padding: 0px;}
 
 
 
-body {
-  background: #ccc;
-  // min-height: 100vh;
-	box-sizing: border-box;
-	padding-top: 10vh;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
-  font-weight: 300;
-  line-height: 1.5;
-  max-width: 40rem;
-  margin: 0 auto;
-  font-size: 112%;
-}
-
 .footer {
   background-color: #fff;
   padding: 10px;
   text-align: center;
   margin-top: .2rem;
 }
+
+@import 'tab1.scss';
